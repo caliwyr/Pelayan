@@ -652,7 +652,7 @@ function onCoolDown(message, command) {
      //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
      collector.on('collect', async b => {
          if(b.user.id !== message.author.id)
-           return b.reply(`<:declined:889433161380028416> **Only the one who typed ${prefix}help is allowed to react!**`, true)
+           return b.reply(`<:declined:780403017160982538> **Only the one who typed ${prefix}help is allowed to react!**`, true)
            //page forward
            if(b.customId == "1") {
              //b.reply("***Swapping a PAGE FORWARD***, *please wait 2 Seconds for the next Input*", true)
@@ -711,7 +711,7 @@ function onCoolDown(message, command) {
      //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
      collector.on('collect', async b => {
          if(b.user.id !== message.author.id)
-           return b.reply(`<:declined:889433161380028416> **Only the one who typed ${prefix}help is allowed to react!**`, true)
+           return b.reply(`<:declined:780403017160982538> **Only the one who typed ${prefix}help is allowed to react!**`, true)
            //page forward
            if(b.customId == "1") {
              //b.reply("***Swapping a PAGE FORWARD***, *please wait 2 Seconds for the next Input*", true)
@@ -757,7 +757,7 @@ function onCoolDown(message, command) {
    */
   function change_status(client) {
     try {
-      client.user.setActivity(`${config.prefix}help | ${client.guilds.cache.size} Guilds`, {
+      client.user.setActivity(`${config.prefix}help | ${client.guilds.cache.size} Guilds | ${Math.ceil(client.users.cache.size/1000)}k Members`, {
         type: "PLAYING",
       });
     } catch (e) {

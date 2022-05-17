@@ -51,7 +51,7 @@ module.exports = {
                         .addField("\u200b", `\u200b`, true)
                         .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
                         .addField("API Latency", `\`${client.ws.ping}ms\``, true)
-                        .setFooter("Coded by: Tomato#6966", "https://cdn.discordapp.com/avatars/442355791412854784/a_d5591ce201b3018a7aa06c3f77d4b6f0.gif?size=512");
+                        .setFooter("Coded by: Sherav#0464", "https://cdn.discordapp.com/attachments/866590054763331594/918018545697316964/atreya.png");
                     interaction.reply({
                         embeds: [botinfo]
                     });
@@ -86,7 +86,7 @@ module.exports = {
                         .addField("\u200b", `\u200b`, true)
                         .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
                         .addField("API Latency", `\`${client.ws.ping}ms\``, true)
-                        .setFooter("Coded by: Tomato#6966", "https://cdn.discordapp.com/avatars/442355791412854784/a_d5591ce201b3018a7aa06c3f77d4b6f0.gif?size=512");
+                        .setFooter("Coded by: Sherav#0464", "https://cdn.discordapp.com/attachments/866590054763331594/918018545697316964/atreya.png");
                         interaction.reply({
                         embeds: [botinfo]
                     });

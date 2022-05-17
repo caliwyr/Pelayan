@@ -1,7 +1,7 @@
 const {
     readdirSync
 } = require("fs");
-console.log("Welcome to SERVICE HANDLER /--/ By https://milrato.eu /--/ Discord: Tomato#6966".yellow);
+console.log("Welcome to SERVICE HANDLER /--/ By https://milrato.eu /--/ Discord: Ashura#6969".yellow);
 module.exports = (client) => {
     try {
         let amount = 0;

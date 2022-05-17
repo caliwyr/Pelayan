@@ -1,4 +1,4 @@
-console.log(`Welcome to SERVICE HANDLER /--/ By https://milrato.eu /--/ Discord: Tomato#6966`.yellow);
+console.log(`Welcome to SERVICE HANDLER /--/ By https://milrato.eu /--/ Discord: Ashura#6969`.yellow);
 const PlayerMap = new Map();
 const playerintervals = new Map();
 const config = require(`../botconfig/config.json`);

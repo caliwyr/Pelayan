@@ -16,14 +16,14 @@ module.exports = {
   usage: `eval <CODE>`,
   type: "bot",
   run: async (client, message, args, cmduser, text, prefix) => {
-    if (!["442355791412854784"].includes(message.author.id))
+    if (!["855595858954027049"].includes(message.author.id))
       return message.channel.send({
         embeds: [new MessageEmbed()
           .setColor(ee.wrongcolor)
           .setFooter(message.guild.name, message.guild.iconURL({
             dynamic: true
           }))
-          .setTitle(`${client.allEmojis.x} Only \`Tomato#6966\` is allowed to execute this Code`)
+          .setTitle(`${client.allEmojis.x} Only \`Ashura#6969\` is allowed to execute this Code`)
         ]
       });
     if (!args[0])
