@@ -40,7 +40,7 @@ module.exports = {
         }))
         .setImage(message.guild.banner ? message.guild.bannerURL({
           size: 4096
-        }) : `https://imgur.com/jLvYdb4.png`)
+        }) : `https://cdn.discordapp.com/attachments/917033118853136387/946796010502500452/Black_and_Purple_Digital_Glitch_Tech_YouTube_Channel_Art1.png`)
         .setTitle(`Start Listening to Music, by connecting to a Voice Channel and sending either the **SONG LINK** or **SONG NAME** in this Channel!`)
         .setDescription(`> *I support <:Youtube:889437206362607656> Youtube, <:Spotify:941114038828552203> Spotify, <:soundcloud:941114248338235392> Soundcloud and direct MP3 Links!*`)
       ]
